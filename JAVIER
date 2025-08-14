@@ -1,0 +1,29 @@
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        string studentID = "12155016261";
+        string fullName = "Ivy Javier";
+        string nickName = "Aii";
+        string gender = "Female";
+        string yearLevel = "3rd Year";
+        string homeLocation = "Katipunan St. Tisa, Cebu City";
+        string course = "Bachelor of Science in Information Technology";
+        string mobileNo = "+639123456789";
+        string personalEmail = "ivyj914@gmail.com";
+        
+        Console.WriteLine("Demographics program by Ivy Javier");
+        Console.WriteLine();
+        Console.WriteLine($"Student ID    : {studentID}");
+        Console.WriteLine($"Full Name     : {fullName}");
+        Console.WriteLine($"Nick Name     : {nickName}");
+        Console.WriteLine($"Gender        : {gender}");
+        Console.WriteLine($"Year Level    : {yearLevel}");
+        Console.WriteLine($"Home Location : {homeLocation}");
+        Console.WriteLine($"Course        : {course}");
+        Console.WriteLine($"Mobile No.    : {mobileNo}");
+        Console.WriteLine($"Personal Email: {personalEmail}");
+    }
+}
